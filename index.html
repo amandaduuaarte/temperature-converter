@@ -9,22 +9,34 @@
     <title>Conversor</title>
 </head>
 <body>
+   
     <div class="content" id="visual"> 
-        <img class="imgs" id="img01" src="./IMGS/Brazuca - UI Design.png" alt="girl">
+        <img class="imgs" id="img01" src="./IMGS/example-8 (1).png" alt="girl">
         <div class="texts">
             <p class="title"> Conversor de temperatura:</p>
+            <br>
             <p id="informations"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                <input type="button" class="buttons" id="More" value="Saiba mais">
+                <br>
+                <button type="submit"class="buttons" i id="More">Ir converter </button>
         </div>
     </div>
     <div class="content" id="forms"> 
-        <form id="forms">
-            <label><p  class="title" id="subTitle"> Informe a temperatura que quer converter:</p></label>
-            <input type="text" class="inputs"> 
-            <input type ="text" class="inputs">
-            <input type="button" value="Converter" class="buttons" id="convertion">
+        <label><p  class="title" id="subTitle"> Informe a temperatura que deseja converter:</p></label>
+        <form id="dados">
+            <label id="info"> Temperatura: </label>
+            <input type="number" class="inputs" id="tempValue"> 
+          
+            <label id="info"> Unidade: </label>
+            <input type ="text" class="inputs" id="type" >
+            <br>
+            
         </form>
+        <button type="submit"class="buttons" id="convertion" onclick="transform()" >Converter</button>
+        <h2 id="final"> a temperatura é: </h2>
+    </div>
+    <div class="temp">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque aperiam pariatur in consequatur illo. Corrupti nemo eaque, sint facere repellat maxime, dignissimos culpa non corporis, tempore cum veritatis sapiente unde.</p>
     </div>
 </body>
 </html>
