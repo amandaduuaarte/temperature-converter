@@ -3,6 +3,9 @@
 
 *{
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column nowrap;
     /*color: #ffffff;*/
     color: black;
     font-family: 'Noto Sans TC', sans-serif;
@@ -11,17 +14,19 @@
 }
 
 .texts{
-    float: right;
-    text-align: justify;
-    margin-top: 70px;
-    margin-right: 25px;
+    text-align: left;
     align-items: center;
-    height: 300px;
+    height: 250px;
+    margin-top: 10%;
+    justify-content:space-around;
+    justify-content: flex-start;
 }
 .title{
     color:#1f2b24;
     font-size: 40px;
     text-align: center;
+    flex-direction: column;
+
 }
 #informations{
     font-size: 20px;
@@ -33,14 +38,18 @@
     font-size: 35px;
 }
 #visual{
-    margin-top: 50px;
+    margin-top: 5px;
     height: 560px;
-width: 100%;
-/*background-color: #205374;*/;
-border-color:#1f2b24;
-border-width: 45px;
-border-radius: 5px;
-display:inline-table;
+    width: 100%;
+    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    /*background-color: #205374;*/;
+    border-color:#1f2b24;
+    border-width: 45px;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    
 
 }
 #img01{
@@ -50,13 +59,15 @@ display:inline-table;
 }
 #info{
     color: #27A09E;
+    
 }
 #forms{
    
     align-items: center;
     width: 100%;
     height: 250px;
-    display: inline-block;
+    align-content: center;
+
 }
 .inputs{
     position: relative;
@@ -68,19 +79,21 @@ display:inline-table;
   
 }
 #dados{
-    align-items: center;
-    margin-left: 30%;
+    align-content: center;
+    justify-content:space-around;
+    text-align: flex-start;
 }
-.buttons{
+.btn btn-primary{
         background-color: #6551e0;
         color:#fff;
-        height: 45px;
-        width: 120px;
+        height: 50px;
+        width: 140px;
         border: none;
         border-radius: 15%;
         margin-right: 70px;
         margin-top:20px;
-        float: right;
+        
+        
 
 }
 #convertion{
