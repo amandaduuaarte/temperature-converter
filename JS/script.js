@@ -2,7 +2,7 @@
 let tempValue ;
 let type ;
 let final;
-
+// adicionar o toFixed
 function transform(tempValue, type){
     tempValue = document.querySelector('#tempValue');
     type = document.querySelector('#type');

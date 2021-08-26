@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <title> Conversor</title>-->
     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/cards.css">
     <script src="./JS/script.js"></script>
-    <title>Conversor</title>
 </head>
 <body>
    
@@ -15,14 +16,47 @@
         <div class="texts">
             <p class="title"> Conversor de temperatura:</p>
             <br>
+            <br>
             <p id="informations"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. it amet consectetur adipisicing elit. </p>
                 <br>
-                <button type="submit"class="btn btn-primary" i id="More">Ir converter </button>
+                <button type="submit"class="btn btn-primary" id="More">Ir converter </button>
         </div>
     </div>
-    <div class="content" id="forms"> 
-        <label><p  class="title" id="subTitle"> Informe a temperatura que deseja converter:</p></label>
+    <label><p  class="title" id="subTitle"> Informe a temperatura que deseja converter:</p></label>
+    <div class="texts" id="information"> 
+     <!--   <h2 id="final">Temperatura: </h2>
+        <h2 id="final">Temperatura: </h2>
+        <h2 id="final">Temperatura: </h2>-->
+    </div>
+    <div class="content" id="forms" > 
+        <div class="box-primary" id="cards">
+            <form id="dados">
+                <label id="info"> Temperatura: </label>
+                <input type="number" class="inputs" id="tempValue"> 
+                
+                <label id="info"> Unidade: </label>
+                <input type ="text" class="inputs" id="type" >
+                <br>
+                <input type = "button" class="btn btn-primary" id="convertion" onclick="transform()" value= "teste"/>
+            </form>
+            
+    </div>  
+    
+        <div class="box-primary" id="cards">
+            <form id="dados">
+                <label id="info"> Temperatura: </label>
+                <input type="number" class="inputs" id="tempValue"> 
+              
+                <label id="info"> Unidade: </label>
+                <input type ="text" class="inputs" id="type" >
+                <br>
+                <input type = "button" class="btn btn-primary" id="convertion" onclick="transform()" value= "teste"/>
+            </form>
+        </div>  
+        
+        <div class="box-primary" id="cards">
+            
         <form id="dados">
             <label id="info"> Temperatura: </label>
             <input type="number" class="inputs" id="tempValue"> 
@@ -32,11 +66,12 @@
             <br>
             <input type = "button" class="btn btn-primary" id="convertion" onclick="transform()" value= "teste"/>
         </form>
-       <h2 id="final"> a temperatura é: </h2>
-      <!--<div class="temp">
-          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque aperiam pariatur in consequatur illo. Corrupti nemo eaque, sint facere repellat maxime, dignissimos culpa non corporis, tempore cum veritatis sapiente unde.</p>
-        </div>-->
     </div>
+  
+    </div>
+    <!--<div class="temp">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque aperiam pariatur in consequatur illo. Corrupti nemo eaque, sint facere repellat maxime, dignissimos culpa non corporis, tempore cum veritatis sapiente unde.</p>
+      </div>-->
     
 </body>
 </html>

@@ -10,14 +10,15 @@
     color: black;
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 50px;
+    background-color:#f5f5f5;
    
 }
 
 .texts{
-    text-align: left;
-    align-items: center;
+    align-content: flex-start;
     height: 250px;
-    margin-top: 10%;
+    width:50%;
+    margin-top: 8%;
     justify-content:space-around;
     justify-content: flex-start;
 }
@@ -29,8 +30,11 @@
 
 }
 #informations{
-    font-size: 20px;
+    font-size: 18px;
     color:#27ae60;
+    width:48%;
+    margin-left:8%;
+    text-align:justify;
 }
 #subTitle{
     padding-top: 35px;
@@ -56,18 +60,37 @@
     margin-top: 5px;
     height: 500px;
     position: relative;
+    justify-content:space-around;
+    box-shadow: 20px 20px 35px #a3a2a2,
+    -20px -20px 35px #ffffff;
+    border-radius: 4%;
 }
 #info{
     color: #27A09E;
     
 }
 #forms{
-   
+    flex-flow: row wrap;
     align-items: center;
-    width: 100%;
     height: 250px;
-    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
 
+#More{
+    width:100px;
+    margin-left:8%;
+    background-color:#3CB371;
+
+}
+#information{
+    text-align: center;
+    height: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
 }
 .inputs{
     position: relative;
@@ -93,12 +116,15 @@
         margin-right: 70px;
         margin-top:20px;
         
-        
-
 }
 #convertion{
     color:#fff;
     align-items: center;
     align-self: center;
     align-content: center;
+}
+#final{
+    font-size:20px;
+    color:#6551e0;
+    text-align: center;
 }
