@@ -43,9 +43,9 @@
 }
 #visual{
     margin-top: 5px;
+    margin-bottom: 0;
     height: 560px;
     width: 100%;
-    flex-flow: row wrap;
     flex-flow: row nowrap;
     /*background-color: #205374;*/;
     border-color:#1f2b24;
@@ -57,7 +57,7 @@
 
 }
 #img01{
-    margin-top: 5px;
+    margin-top: 6px;
     height: 500px;
     position: relative;
     justify-content:space-around;
@@ -82,7 +82,7 @@
 #More{
     width:100px;
     margin-left:8%;
-    background-color:#3CB371;
+    background-color:#1f2b24;
 
 }
 #information{
@@ -99,6 +99,9 @@
     border-color: #1f2b24;
     border-width: 2px;
     padding-left: 50px;
+    outline: none; 
+    padding: 4% 5%;
+    border-radius: 10px;
   
 }
 #dados{
@@ -106,25 +109,43 @@
     justify-content:space-around;
     text-align: flex-start;
 }
-.btn btn-primary{
-        background-color: #6551e0;
-        color:#fff;
-        height: 50px;
-        width: 140px;
+.btn-primary{
+        background-color: #1f2b24;
         border: none;
-        border-radius: 15%;
-        margin-right: 70px;
-        margin-top:20px;
-        
+        color: #FFF;
+        padding: 2% 15%;
+        border-radius: 10px;
+        align-items: center;
+        align-content: center;
+        margin-top: 12px;
 }
-#convertion{
+#convertion-1{
     color:#fff;
     align-items: center;
     align-self: center;
     align-content: center;
+    background-color: #205374;
 }
+#convertion-2{
+    color:#fff;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: #30CE88;
+}
+#convertion-3{
+    color:#fff;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: #27A09E;
+}
+
 #final{
     font-size:20px;
     color:#6551e0;
     text-align: center;
+}
+.temp{
+    margin-top:8%;
 }

@@ -1,26 +1,30 @@
 
 
 .box-primary{
-/*background-color: #f5f5f5*/
-/*  box-shadow: 20px 20px 35px #d0d0d0,
--20px -20px 35px #ffffff;*/
-    background-color: brown;
     justify-content: center;
-    align-content: space-around;
     flex-direction: row;
-    height:140px;
-    width: 55px;
-    text-align: center;
-    border: 10px solid red;
-}
-
-#cards{
-    height:220px;
-    width:240px;
-    background-color:red;
+    height:400px;
+    width:260px;
+    background-color: #f5f5f5;
     border-top: 7px solid black;
     border-radius: 4%;
     box-shadow: 20px 20px 35px #8a8989,
     -20px -20px 35px #ffffff;
-    text-align: center;
+}
+
+#card-1{
+    border-top: 7px solid #205374;
+    margin-top:40px;
+    margin-left: 5%;
+}
+#card-2{
+    border-top: 7px solid #30CE88;
+    margin-top:0;
+    margin-bottom: 20px;
+    
+}
+#card-3{
+    border-top: 7px solid #27A09E;
+    margin-top:40px;
+    margin-right:5% ;
 }

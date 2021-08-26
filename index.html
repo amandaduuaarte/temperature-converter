@@ -17,10 +17,10 @@
             <p class="title"> Conversor de temperatura:</p>
             <br>
             <br>
-            <p id="informations"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. it amet consectetur adipisicing elit. </p>
+            <p id="informations">Termometria é a área da física que estuda a temperatura e as escalas termométricas.Principais escalas termométricas: Celsius, Kelvin e Fahrenheit.</p>
                 <br>
-                <button type="submit"class="btn btn-primary" id="More">Ir converter </button>
+                <a href="https://mundoeducacao.uol.com.br/fisica/termologia.htm#:~:text=Termometria%20%C3%A9%20a%20%C3%A1rea%20da,%3A%20Celsius%2C%20Kelvin%20e%20Fahrenheit." target="_blank">
+                <button type="submit" class="btn-primary" id="More">Saiba mais </button> </a>
         </div>
     </div>
     <label><p  class="title" id="subTitle"> Informe a temperatura que deseja converter:</p></label>
@@ -30,7 +30,7 @@
         <h2 id="final">Temperatura: </h2>-->
     </div>
     <div class="content" id="forms" > 
-        <div class="box-primary" id="cards">
+        <div class="box-primary" id="card-1">
             <form id="dados">
                 <label id="info"> Temperatura: </label>
                 <input type="number" class="inputs" id="tempValue"> 
@@ -38,40 +38,44 @@
                 <label id="info"> Unidade: </label>
                 <input type ="text" class="inputs" id="type" >
                 <br>
-                <input type = "button" class="btn btn-primary" id="convertion" onclick="transform()" value= "teste"/>
+                <input type = "button" class="btn btn-primary" id="convertion-1" onclick="transform()" value= "Converter"/>
             </form>
             
     </div>  
     
-        <div class="box-primary" id="cards">
-            <form id="dados">
-                <label id="info"> Temperatura: </label>
-                <input type="number" class="inputs" id="tempValue"> 
-              
-                <label id="info"> Unidade: </label>
-                <input type ="text" class="inputs" id="type" >
-                <br>
-                <input type = "button" class="btn btn-primary" id="convertion" onclick="transform()" value= "teste"/>
-            </form>
-        </div>  
-        
-        <div class="box-primary" id="cards">
-            
+    <div class="box-primary" id="card-2">
         <form id="dados">
             <label id="info"> Temperatura: </label>
             <input type="number" class="inputs" id="tempValue"> 
-          
+            
             <label id="info"> Unidade: </label>
             <input type ="text" class="inputs" id="type" >
             <br>
-            <input type = "button" class="btn btn-primary" id="convertion" onclick="transform()" value= "teste"/>
+            <input type = "button" class="btn btn-primary" id="convertion-2" onclick="transform()" value= "Converter"/>
         </form>
-    </div>
-  
-    </div>
-    <!--<div class="temp">
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque aperiam pariatur in consequatur illo. Corrupti nemo eaque, sint facere repellat maxime, dignissimos culpa non corporis, tempore cum veritatis sapiente unde.</p>
-      </div>-->
+        
+</div>  
+        
+<div class="box-primary" id="card-3">
+    <form id="dados">
+        <label id="info"> Temperatura: </label>
+        <input type="number" class="inputs" id="tempValue"> 
+        
+        <label id="info"> Unidade: </label>
+        <input type ="text" class="inputs" id="type" >
+        <br>
+        <input type = "button" class="btn btn-primary" id="convertion-3" onclick="transform()" value= "Converter"/>
+    </form>
     
+</div>  
+    
+</div>
+<p id="final"> </p>
+   <div class="temp">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque aperiam pariatur in consequatur illo. Corrupti nemo eaque, sint facere repellat maxime, dignissimos culpa non corporis, tempore cum veritatis sapiente unde.</p>
+      </div>
+    <footer>
+        <p> Code by Amanda </p>
+    </footer>
 </body>
 </html>
