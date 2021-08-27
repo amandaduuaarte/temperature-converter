@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
-
+@import url('./imports.css');
 
 *{
     margin: 0;
@@ -8,7 +7,7 @@
     flex-flow: column nowrap;
     /*color: #ffffff;*/
     color: black;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Bree Serif', serif;
     font-weight: 50px;
     background-color:#f5f5f5;
    
@@ -29,13 +28,14 @@
     flex-direction: column;
 
 }
-#informations{
-    font-size: 18px;
-    color:#27ae60;
-    width:48%;
+.informations{
+    font-size: 20px;
+    color:#8a8989;
+    width:54%;
     margin-left:8%;
     text-align:justify;
 }
+
 #subTitle{
     padding-top: 35px;
     padding-bottom: 20px;
@@ -47,10 +47,6 @@
     height: 560px;
     width: 100%;
     flex-flow: row nowrap;
-    /*background-color: #205374;*/;
-    border-color:#1f2b24;
-    border-width: 45px;
-    border-radius: 5px;
     flex-direction: row;
     justify-content: space-around;
     
@@ -66,7 +62,9 @@
     border-radius: 4%;
 }
 #info{
-    color: #27A09E;
+    color:#1f2b24;
+    text-align:center;
+    font-family: 'Noto Sans TC';
     
 }
 #forms{
@@ -78,13 +76,30 @@
     flex-direction: column;
     
 }
-
-#More{
-    width:100px;
-    margin-left:8%;
-    background-color:#1f2b24;
-
+input {
+    height: 15px;
+    margin-top: 0;
+    align-self: center;
+    text-decoration: none;
+    border: 0px solid transparent;
+    border-bottom:1.5px solid #1f2b24;
+    
 }
+
+a {
+    display: block;
+    width: 160px;
+    height: 35px;
+    padding: 10px 5px;
+    margin-left:8%;
+    background-color: #1f2b24;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Noto Sans TC';
+    }
 #information{
     text-align: center;
     height: 50px;
@@ -92,7 +107,7 @@
     justify-content: center;
     align-content: space-around;
 }
-.inputs{
+/*.inputs{
     position: relative;
     align-content: center;
     width: 80px;
@@ -101,9 +116,9 @@
     padding-left: 50px;
     outline: none; 
     padding: 4% 5%;
-    border-radius: 10px;
+
   
-}
+}*/
 #dados{
     align-content: center;
     justify-content:space-around;
@@ -115,9 +130,9 @@
         color: #FFF;
         padding: 2% 15%;
         border-radius: 10px;
-        align-items: center;
         align-content: center;
-        margin-top: 12px;
+        height:30px;
+        text-align: center;
 }
 #convertion-1{
     color:#fff;
