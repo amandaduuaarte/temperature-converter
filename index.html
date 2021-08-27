@@ -33,6 +33,7 @@
     <div class="content" id="forms" > 
         <div class="box-primary" id="card-1">
             <form id="dados">
+                <label class="cardTitle"id="info"> Fahrenheit e Celsius </label>
                 <label id="info"> Temperatura: </label>
                 <input type="number" class="inputs" id="tempValue"> 
                 
@@ -46,26 +47,28 @@
     
     <div class="box-primary" id="card-2">
         <form id="dados">
+            <label class="cardTitle" id="info"> Kelvin e Celsius </label>
             <label id="info"> Temperatura: </label>
-            <input type="number" class="inputs" id="tempValue"> 
+            <input type="number" class="inputs" id="tempValueKelvin"> 
             
             <label id="info"> Unidade: </label>
-            <input type ="text" class="inputs" id="type" >
+            <input type ="text" class="inputs" id="typeKelvin" >
             <br>
-            <input type = "button" class="btn-primary" id="convertion-2" onclick="transform()" value= "Converter"/>
+            <input type = "button" class="btn-primary" id="convertion-2" onclick="transformKelvin()" value= "Converter"/>
         </form>
         
 </div>  
         
 <div class="box-primary" id="card-3">
     <form id="dados">
+        <label class="cardTitle" id="info"> Kelvin e Fahrenheit </label>
         <label id="info"> Temperatura: </label>
-        <input type="number" class="inputs" id="tempValue"> 
+        <input type="number" class="inputs" id="tempValueFahrenheit"> 
         
         <label id="info"> Unidade: </label>
-        <input type ="text" class="inputs" id="type" >
+        <input type ="text" class="inputs" id="typeFahrenheit"> 
         <br>
-        <input type = "button" class="btn-primary" id="convertion-3" onclick="transform()" value= "Converter"/>
+        <input type = "button" class="btn-primary" id="convertion-3" onclick="kelvinFahrenheit()" value= "Converter"/>
     </form>
     
 </div>  
