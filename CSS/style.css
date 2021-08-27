@@ -37,8 +37,8 @@
 }
 
 #subTitle{
-    padding-top: 35px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 5px;
     font-size: 35px;
 }
 #visual{
@@ -64,6 +64,7 @@
 #info{
     color:#1f2b24;
     text-align:center;
+    margin-bottom: 8%;
     font-family: 'Noto Sans TC';
     
 }
@@ -91,6 +92,7 @@ a {
     width: 160px;
     height: 35px;
     padding: 10px 5px;
+    margin-top:3%;
     margin-left:8%;
     background-color: #1f2b24;
     color: #FFF;
@@ -107,18 +109,6 @@ a {
     justify-content: center;
     align-content: space-around;
 }
-/*.inputs{
-    position: relative;
-    align-content: center;
-    width: 80px;
-    border-color: #1f2b24;
-    border-width: 2px;
-    padding-left: 50px;
-    outline: none; 
-    padding: 4% 5%;
-
-  
-}*/
 #dados{
     align-content: center;
     justify-content:space-around;
@@ -157,10 +147,23 @@ a {
 }
 
 #final{
-    font-size:20px;
-    color:#6551e0;
+
+    height:35px;
+    font-size:35px;
+    margin-top:35px;
+    color: #1f2b24;
     text-align: center;
 }
 .temp{
-    margin-top:8%;
+    margin-top:2%;
+    margin-bottom: 5%;
+}
+footer{
+    height:50px;
+    color:#fff;
+    padding:5%;
+    margin: 0% 5% 0% 5%;
+    border-radius:15% 15% 0% 0%;
+    text-align: center;
+    background-color:#205374;
 }

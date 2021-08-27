@@ -65,9 +65,9 @@ function kelvinFahrenheit(tempValueFahrenheit, typeFahrenheit){
         valor = console.log("error")
      }else {
          if (kelvin){
-             valor = ((((numberFahrenheit) * 1.8 ) - 459.67).toFixed('2')) + " em kelvin"
+             valor = ((((numberFahrenheit) * 1.8 ) - 459.67).toFixed('2')) + " em fahrenheit"
          }else if (fahrenheit){
-             valor = ((((numberFahrenheit) + 459.67) / 1.8 ).toFixed('2')) + " em fahrenheit "
+             valor = ((((numberFahrenheit) + 459.67) / 1.8 ).toFixed('2')) + " em kelvin "
          }
          
          final =  document.querySelector("#final").innerHTML=`A temperatura é: ${valor} `
