@@ -1,31 +1,29 @@
-
-
-.box-primary{
-    justify-content: center;
-    flex-direction: row;
-    height:400px;
-    width:260px;
-    background-color: #f5f5f5;
-    border-top: 7px solid black;
-    border-radius: 4%;
-    box-shadow: 20px 20px 35px #8a8989,
-    -20px -20px 35px #ffffff;
-
+.box-primary {
+  padding: 4px 8px;
+  justify-content: center;
+  flex-direction: row;
+  height: 300px;
+  width: 310px;
+  background: #f5f5f5;
+  border-top: 7px solid black;
+  border-radius: 4%;
 }
 
-#card-1{
-    border-top: 7px solid #205374;
-    margin-top:40px;
-    margin-left: 5%;
+#card-1,
+#card-2,
+#card-3 {
+  margin-top: 40px;
+  margin-left: 5%;
 }
-#card-2{
-    border-top: 7px solid #30CE88;
-    margin-top:0;
-    margin-bottom: 20px;
-    
+
+#card-1 {
+  border-top: 7px solid #205374;
 }
-#card-3{
-    border-top: 7px solid #27A09E;
-    margin-top:40px;
-    margin-right:5% ;
+
+#card-2 {
+  border-top: 7px solid #30ce88;
+}
+
+#card-3 {
+  border-top: 7px solid #27a09e;
 }
