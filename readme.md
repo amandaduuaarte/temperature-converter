@@ -12,12 +12,16 @@
 > Este repositório é um projeto que fiz no início dos meus estudos de HTML, CSS e JavaScript. É basicamente um conversor de temperaturas nas escalas mais conhecidas 
 da termologia.
 
+> Foi usado também alguns `breakpoints` para adptar o layout para telas menores. 
+
 ---
 
 ## ☕ Contribuidores:
 
 * Amanda Duarte
 
-## 🍜 Licença
+## 🍜 Feito em: 
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.<br>
+* Html
+* CSS
+* JavaScript
