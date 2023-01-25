@@ -9,7 +9,7 @@
 
 ## Conversor de temperatura: 
 
-> Este repositório é um projeto que fiz no incio dos meus estudos de HTML, CSS e JavaScript. É basicamente um conversor de temperaturas nas escalas mais conhecidas 
+> Este repositório é um projeto que fiz no início dos meus estudos de HTML, CSS e JavaScript. É basicamente um conversor de temperaturas nas escalas mais conhecidas 
 da termologia.
 
 ---
